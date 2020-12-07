@@ -1,0 +1,34 @@
+
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+                <link type="image/x-icon" rel="shortcut icon" href="/web/static/src/img/favicon.ico"/>
+                
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+                <meta name="theme-color" content="#875A7B"/>
+                <link rel="icon" sizes="192x192" href="/web_enterprise/static/src/img/mobile-icons/android-192x192.png"/>
+
+                <meta name="apple-mobile-web-app-capable" content="yes"/>
+                <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+                <link rel="apple-touch-icon" href="/web_enterprise/static/src/img/mobile-icons/apple-152x152.png"/>
+
+                <meta name="msapplication-navbutton-color" content="#875A7B"/>
+                <meta name="msapplication-TileColor" content="#875A7B"/>
+                <meta name="msapplication-TileImage" content="/web_enterprise/static/src/img/mobile-icons/windows-144x144.png"/>
+            
+                <script type="text/javascript">
+                    session_info = {"uid": 2, "is_system": true, "is_admin": true, "user_context": {"lang": "en_US", "tz": "Asia/Calcutta", "uid": 2}, "db": "coimbatore", "server_version": "14.0+e", "server_version_info": [14, 0, 0, "final", 0, "e"], "name": "Madhumitha Sivashankar", "username": "sivamadhu211@gmail.com", "partner_display_name": "Madhumitha Sivashankar", "company_id": 1, "partner_id": 3, "web.base.url": "https://coimbatore.com", "active_ids_limit": 20000, "user_companies": {"current_company": [1, "coimbatore"], "allowed_companies": [[1, "coimbatore"]]}, "currencies": {"1": {"symbol": "\u20ac", "position": "after", "digits": [69, 2]}, "2": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "show_effect": "True", "display_switch_company_menu": false, "cache_hashes": {"load_menus": "918fa0436bfdabda4e10e3619d50d63b73fdd4a98f18bb2f1bded702476bfb61", "qweb": "05a7157dfb28d66c6410ed578bbfce6b5267f111a3d00f765c2838812e301cbf", "translations": "5227498d9df4b403b0244c75aac21e0c091e50ce"}, "user_id": [2], "warning": "admin", "expiration_date": "2021-01-07 04:42:16", "expiration_reason": "trial", "web_tours": [], "notification_type": "email", "map_box_token": false, "ocn_token_key": false, "fcm_project_id": false, "inbox_action": 109};
+                    reloadMenus = () => fetch(`/web/webclient/load_menus/${session_info.cache_hashes.load_menus}`).then(res => res.json());
+                    loadMenusPromise = odoo.reloadMenus();
+                </script>
+                <link type="text/css" rel="stylesheet" href="/web/content/36-8796e2a/web.assets_common.css" data-asset-xmlid="web.assets_common" data-asset-version="8796e2a"/>
+                <link type="text/css" rel="stylesheet" href="/web/content/37-2ab1ddf/web.assets_backend.css" data-asset-xmlid="web.assets_backend" data-asset-version="2ab1ddf"/>
+               </head>
+            <body class="o_web_client">
+            </body>
+        </html>
+    
+    
